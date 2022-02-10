@@ -1,5 +1,8 @@
 # luigisample
 
+Default Port: 8082
+-  luigid --port 8082
+- http://localhost:8082/
 
 ## Docs
 - https://lovethepenguin.com/python-create-an-etl-with-luigi-pandas-and-sqlalchemy-d3cdc9292bc7
