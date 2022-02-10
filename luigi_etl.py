@@ -53,5 +53,9 @@ class CreateReport(luigi.Task):
         f.close()
 
 
+def  externalCallTask():
+    luigi.run(main_task_cls=CreateReport,local_scheduler=False )
+    
+    
 if __name__ == '__main__':
     luigi.run(main_task_cls=CreateReport,local_scheduler=False)

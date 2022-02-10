@@ -7,6 +7,11 @@ Default Port: 8082
 ## Docs
 - https://lovethepenguin.com/python-create-an-etl-with-luigi-pandas-and-sqlalchemy-d3cdc9292bc7
 
+- https://www.datarevenue.com/en-blog/how-to-scale-your-machine-learning-pipeline
+
+## Gist Docs
+- https://gist.github.com/sanogotech/fcfeb2f39dd8ad582e83ce0e396eb015
+
 ##  Run
 
 ```
