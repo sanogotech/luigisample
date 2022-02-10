@@ -23,3 +23,17 @@ insert into names values('2','john','doe');
 insert into names values('3','jenny','doe');
 
 ```
+
+
+```
+sqlite3 db2
+create table salaries (id varchar(10) primary key, salary integer);
+insert into salaries values('1',10000);
+insert into salaries values('2',13000);
+insert into salaries values('3',23000);
+```
+
+```
+$ luigid --port 8082
+$ python etl.py
+```
